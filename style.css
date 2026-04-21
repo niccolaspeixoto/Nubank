@@ -152,3 +152,220 @@ header nav a:hover{
     cursor: pointer;
     margin-top: 10px;
 }
+
+.services{
+    padding: 60px 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.3s ease;
+    gap: 8px;
+    color: var(--dark);
+}
+
+.services a:hover{
+    color: var(--purple);
+}
+
+.card-section{
+    background-color: var(--dark);
+    padding: 100px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.credit-card{
+    width: 360px;
+    height: 220px;
+    background: linear-gradient(135deg, var(--purple), var(--purple-dark))    ;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 20px 40px rgba(130, 10, 209, 0.3); 
+}
+
+.card-chip{
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+    height: 35px;
+    width: 45px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.card-number{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-info span{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.card-info strong{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.card-text{
+    color: var(--white);
+    font-size: 14px;
+    margin-top: 20px;
+    max-width: 400px;
+}
+
+.card-text h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.card-text p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.card-text ul{
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+.card-text ul li{
+    color: var(--white);
+    font-size: 18px;
+    padding: 6px 0;
+}
+
+.card-text ul li::before{
+    content: "✓";
+    color: var(--purple);
+    margin-right: 10px;
+
+}
+
+.btn-purple{
+    background-color: var(--purple);
+    display: inline-block;
+    color: var(--white);
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.cta{
+    background: linear-gradient(135deg, var(--purple), var(--purple-dark))    ;
+    padding: 100px 40px;
+    text-align: center;
+    color: var(--white);
+}
+
+.cta h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 750;
+}
+
+.cta p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.cta .btn-cta{
+    display: inline-block;
+    background-color: var(--white);
+    color: var(--purple);
+    padding: 15px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.cta .btn-cta:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.3);
+}
+
+footer{
+    background-color: var(--dark);
+    color: var(--white);
+    text-align: center;
+    padding: 60px 40px 30px;
+    font-size: 14px;
+}
+
+.footer-logo{
+    height: 22px;
+    margin-bottom: 20px;
+}
+
+.footer-top{
+    max-width: 1200px;
+    margin: 0 auto 40px;
+    display: flex;
+    gap: 60px;
+}
+
+.footer-links{
+    flex: 1;
+}
+
+.footer-first-child{
+    flex: 2;
+}
+
+.footer-first-child p{
+    color: rgba(255,255,255,0.6);
+}
+
+.footer-top h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.footer-top a{
+    display: block;
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 10px;
+}
+
+
+
+
+
